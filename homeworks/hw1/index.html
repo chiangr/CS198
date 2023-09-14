@@ -1,6 +1,124 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+    <style>
+        :root {
+            --hunyadi-yellow:#f6bd60;
+            --linen:#F7EDE2;
+            --tea-rose:#F5CAC3;
+            --cambridge-blue:#84A59D;
+            --light-coral:#F28482;
+            --black:#171717;
+        }
+        * {
+            font-family: 'Inter', sans-serif;
+            color:var(--black);
+        }
+        body {
+            overflow-x:hidden;
+            background-color:var(--linen);
+            min-height:100vh;
+            width:100vw;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+        .thatsmelol {
+            position:relative;
+            left:-120px;
+        }
+        .card-ctn {
+            display:flex;
+            flex-direction: row;
+            align-items:center;
+            justify-content: start;
+            width:fit-content;
+
+            background-color: whitesmoke;
+            border-radius:48px;
+            padding: 32px;
+            
+            -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+            -moz-box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+            box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px;
+
+            margin:0 0 32px 32px;
+        }
+        .horizontal-row {
+            display:flex;
+            flex-direction: row;
+        }
+        .card-cnt {
+            /* margin:32px; */
+        }
+        .card-ctn img {
+            border-radius:32px;
+            width:96px;
+            height:96px;
+            aspect-ratio: 1;
+        }
+        .title-txt {
+            margin-left:50px;
+            margin-right:32px;
+        }
+        .title-txt h1{
+            line-height:0px;
+        }
+        .title-txt p{
+            margin-left:0;
+            margin-top:0;
+        }
+    </style>
     <body>
-        Homework 1
+        <div class="main-ctn">
+            <!-- <div class="thatsmelol">
+                <h6>dont hate the playa<br>hate the game</h6>
+            </div> -->
+            <div class="card-ctn">
+                <img src="assets/img/ryan.jpg"> <!-- Intentionally widescreened -->
+                <div class="title-txt">
+                    <h1>Ryan James Chiang</h1>
+                    <p><i>MechE / 3rd Year / Munch</i></p>
+                </div>
+            </div>
+            <div class="horizontal-row">
+                <div class="card-ctn">
+                    <div class="card-cnt">
+                        <h2>Intro</h2>
+                        <p>My name is Ryan. <br>I'm a 3rd year studying mechanical engineering. <br>I'm so downbad on money please play poker with me</p>
+                    </div>
+                </div>
+                <div class="card-ctn">
+                    <div class="card-cnt">
+                        <h2>Places I Eat</h2>
+                        <ol>
+                            <li>Sushinista</li>
+                            <li>Taiwan Profession Tea</li>
+                            <li>Chiptole</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="card-ctn">
+                <a href="https://www.raisingcanes.com/home">I like this place</a>
+            </div>
+            <div class="card-ctn">
+                <div class="card-cnt">
+                    <h2>Article</h2>
+                    <p><i>This Is What Makes Raising Cane's Chicken So Delicious - Exclusive</i></p>
+                    <ul>
+                        <li>I learned that Raising Canes is better than Chik-fil-A. I also learned that they find the best chickens around and it is juicy.</li>
+                        <li>My favorite part about the article is when they said that people will want Cane's after eating Chik Fil A for 2 days.<br>Are the chicken sandwiches really that bad???</li>
+                        <li><i>"chicken fingers equals Cane's. Cane's, Cane's, Cane's!"</i></li>
+                        <li>I rate 10/10 finger licking Cane's tenders! I love the emotion and the reputable facts that they lay down.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
     </body>
 </html>
