@@ -3,7 +3,7 @@
     --green:#678D58;
     --red:#8E3B46;
     --yellow:#FFDD4A;
-    --white:#FDFFFC;
+    --white:#f8f6e5;
 }
 
 * {
@@ -17,6 +17,7 @@ html {
 
 body {
     min-height:100vh;
+    background-color: var(--white) !important;
 }
 
 h1 {
